@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{Component} from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
+// import { Navbar, Nav, NavDropdown, Form,  FormControl, Button, Table} from 'react-bootstrap';
+import Navbar from './component/Navbar';
+import Coursel from './component/Coursel';
+import Card from './component/Card';
+import Footer from './component/Footer';
+import Contact from './component/Contact';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Coursel />
+      <Card />
+      <Contact />
+      <Footer />
+
+    </>
+   
   );
 }
+
 
 export default App;
