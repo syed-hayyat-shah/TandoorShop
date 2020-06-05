@@ -22,9 +22,9 @@ class MyComponent extends Component {
               <h2 className="ftco-heading-2">About Us</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li className="ftco-animate"><a href="#"><span className="icon-twitter"></span></a></li>
-                <li className="ftco-animate"><a href="#"><span className="icon-facebook"></span></a></li>
-                <li className="ftco-animate"><a href="#"><span className="icon-instagram"></span></a></li>
+                <li className="ftco-animate"><a href="#"><i style={{color: "#fff"}} className="fa fa-facebook"></i></a></li>
+                <li className="ftco-animate"><a href="#"><i style={{color: "#fff"}} className="fa fa-facebook"></i></a></li>
+                <li className="ftco-animate"><a href="#"><i style={{color: "#fff"}} className="fa fa-facebook"></i></a></li>
               </ul>
             </div>
           </div>
@@ -81,11 +81,16 @@ class MyComponent extends Component {
         </div>
         <div className="row">
           <div className="col-md-12 text-center">
+          <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  </p>
 
           </div>
         </div>
       </div>
+      
     </footer>
+    
 
         
     
