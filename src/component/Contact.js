@@ -32,12 +32,12 @@ render()
         //     <Row>
         //         <Col xs="12" sm='6' md='6' lg='6'> */}
 				<div style={{display: 'flex', flexDirection: "row"}}>
-          			<video src={Video1} autoPlay="true" loop style={{width: "100%", height:"500px"}} />
-          			<video src={Video2} autoPlay="true" loop style={{width: "100%", height:"500px"}} />
-          			<video src={Video3} autoPlay="true" loop style={{width: "100%", height:"500px"}} />
-          			<video src={Video4} autoPlay="true" loop style={{width: "100%", height:"500px"}} />
-          			<video src={Video5} autoPlay="true" loop style={{width: "100%", height:"500px"}} />
-          			<video src={Video6} autoPlay="true" loop style={{width: "100%", height:"500px"}} />
+          			<video src={Video1} autoPlay="true" loop style={{width: "100%"}} />
+          			<video src={Video2} autoPlay="true" loop style={{width: "100%"}} />
+          			<video src={Video3} autoPlay="true" loop style={{width: "100%"}} />
+          			<video src={Video4} autoPlay="true" loop style={{width: "100%"}} />
+          			<video src={Video5} autoPlay="true" loop style={{width: "100%"}} />
+          			<video src={Video6} autoPlay="true" loop style={{width: "100%"}} />
 				</div>
 				{/* // </Col>
                 // <Col xs="12" sm='6' md='6' lg='6' style={{color:"#000"}}> */}
