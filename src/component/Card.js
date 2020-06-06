@@ -6,7 +6,7 @@ class Card extends Component {
     return (
     // <h1>card</h1>
 
-<section className="ftco-section bg-dark">
+<section className="ftco-section bg-dark" id='menu'>
     	{/* <div className="container">
     		<div className="row justify-content-center mb-5 pb-3">
           <div className="col-md-7 heading-section ftco-animate text-center">
@@ -34,7 +34,7 @@ class Card extends Component {
     					<div className="text p-4">
     						<h3 style={{color:"#f2b200"}}>Italian Pizza</h3>
     						<p style={{color:'#fff'}}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-    						<p className="price" ><span>$2.90</span> <a href="#" className="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<p className="price" ><span>$2.90</span> </p>
     					</div>
     				</div>
     			</div>
@@ -44,7 +44,7 @@ class Card extends Component {
     					<div className="text p-4">
     						<h3 style={{color:"#f2b200"}}>Greek Pizza</h3>
     						<p style={{color:'#fff'}}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-    						<p className="price" ><span>$2.90</span> <a href="#" className="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<p className="price" ><span>$2.90</span> </p>
     					</div>
     				</div>
     			</div>
@@ -54,7 +54,7 @@ class Card extends Component {
     					<div className="text p-4">
     						<h3 style={{color:"#f2b200"}}>Caucasian Pizza</h3>
     						<p style={{color:'#fff'}}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-    						<p className="price" ><span>$2.90</span> <a href="#" className="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<p className="price" ><span>$2.90</span> </p>
     					</div>
     				</div>
     			</div>
@@ -65,7 +65,7 @@ class Card extends Component {
     					<div className="text p-4" >
     						<h3 style={{color:"#f2b200"}}>American Pizza</h3>
     						<p style={{color:'#fff'}}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-    						<p className="price" ><span>$2.90</span> <a href="#" className="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<p className="price" ><span>$2.90</span> </p>
     					</div>
     				</div>
     			</div>
@@ -75,7 +75,7 @@ class Card extends Component {
     					<div className="text p-4">
     						<h3 style={{color:"#f2b200"}}>Tomatoe Pie</h3>
     						<p style={{color:'#fff'}}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-    						<p className="price" ><span>$2.90</span> <a href="#" className="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<p className="price" ><span>$2.90</span> </p>
     					</div>
     				</div>
     			</div>
@@ -85,7 +85,7 @@ class Card extends Component {
     					<div className="text p-4">
     						<h3 style={{color:"#f2b200"}}>Margherita</h3>
     						<p style={{color:'#fff'}}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-    						<p className="price" ><span>$2.90</span> <a href="#" className="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    						<p className="price" ><span>$2.90</span> </p>
     					</div>
     				</div>
     			</div>

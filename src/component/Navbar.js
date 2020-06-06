@@ -1,41 +1,51 @@
 import React, { Component } from 'react';
-import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faFileExcel, faAlignCenter } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faHighlighter } from '@fortawesome/free-solid-svg-icons';
-
+import  {link} from 'smooth-scroll';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import logo from '../images/logo.png';
 import './style.css';
 
 class MyComponent extends Component {
 
-     
+    constructor(props)
+    {
+      super(props)
+      this.state ={
+        navBackground: 'transparent',
+        isSticky: false
+      }
+    }
+  
+    componentDidMount() {
+        document.addEventListener("scroll", () => {
+          const backgroundcolor = window.scrollY < 80 ? "transparent" : "#343a40";
+          const isSticky = window.scrollY < 80 ? false : true;
+          this.setState({ navBackground: backgroundcolor, isSticky: isSticky });
+        });
+      }
 
     render() {
     return (
     
-             <div className="header-area bg-transparent ">
+             <div className="header-area " id="home"  style={this.state.isSticky ? {backgroundColor: this.state.navBackground, position: "fixed", top: 0, left: 0, right: 0}: {backgroundColor: this.state.navBackground}}>
             <div id="sticky-header" className="main-header-area">
                 <div className="container-fluid p-2">
                     <div className="row align-items-center no-gutters">
                         <div className="col-xl-7 col-lg-7">
                             <div className="main-menu  d-none d-lg-block">
                                 <nav>
+
                                     <ul id="navigation">
-                                        <li><a className="active" href="index.html">home</a></li>
-                                        <li><a href="Menu.html">Menu</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="#">blog <i className="ti-angle-down"></i></a>
-                                            <ul className="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Pages <i className="ti-angle-down"></i></a>
-                                            <ul className="submenu">
-                                                <li><a href="elements.html">elements</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a className="active" href="home"> <AnchorLink href='#home'>Home</AnchorLink></a></li>
+                                        <li><a href="Card"><AnchorLink href='#menu'>Menu</AnchorLink></a></li>
+                                        <li><a href="about.html"><AnchorLink href='#video'>About</AnchorLink></a></li>
+                                      
+                                        <li><a href="contact.html"><AnchorLink href='#contact'>Contact</AnchorLink></a></li>
                                     </ul>
+                                    <a href="#" ><img src={logo} style={{height:'100px', width:'200px', marginLeft:'80%', marginTop:'-70px'}}  ></img></a>
+
                                 </nav>
                             </div>
                         </div>
