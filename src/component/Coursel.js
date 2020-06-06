@@ -17,18 +17,18 @@ class Mycoursel extends Component{
       items: [
         {
           src: img1,
-          altText: 'Slide 1',
-          caption: 'Slide 1'
+          altText: 'Jeddah Shermall House',
+          caption: 'We make good quality product as your toung tast'
         },
         {
           src: img2,
-          altText: 'Slide 2',
-          caption: 'Slide 2'
+          altText: 'Jeddah Shermall House',
+          caption: 'We make good quality product as your toung tast'
         },
         {
           src: img3,
-          altText: 'Slide 3',
-          caption: 'Slide 3'
+          altText: 'Jeddah Shermall House',
+          caption: 'We make good quality product as your toung tast'
         }
       ],
       activeIndex: 0,
@@ -68,7 +68,7 @@ class Mycoursel extends Component{
           key={item.src}
         >
           <img src={item.src} alt={item.altText} width='100%' height='100%'/>
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <CarouselCaption captionText={item.caption} captionHeader={item.altText} />
         </CarouselItem>
       );
     });

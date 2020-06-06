@@ -7,6 +7,8 @@ import Coursel from './component/Coursel';
 import Card from './component/Card';
 import Footer from './component/Footer';
 import Contact from './component/Contact';
+import Map from './component/Map';
+
 
 
 function App() {
@@ -14,8 +16,9 @@ function App() {
     <>
       <Navbar />
       <Coursel />
-      <Card />
+      <Card/>
       <Contact />
+      <Map />
       <Footer />
 
     </>
