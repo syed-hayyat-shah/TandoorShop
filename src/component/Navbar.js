@@ -70,6 +70,7 @@ class MyComponent extends Component {
                                         </li>
                                         <li>
                                             <a href="#">
+                                                <AnchorLink href='https://www.facebook.com/Jaddah-Sheermal-House-108065190700869'></AnchorLink>
                                                 <i className="fa fa-facebook"></i>
                                             </a>
                                         </li>
