@@ -22,6 +22,12 @@ render()
 {
     return(
 		<div id="map">
+			  {/* "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }, */}
         {/* // <Container>
         //     <Row>
         //         <Col xs="12" sm='6' md='6' lg='6'> */}
