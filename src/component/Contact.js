@@ -11,21 +11,10 @@ import Video6 from "../images/6.mp4";
 
 
 
-// import './style.css';
+
 
 class MyContact extends Component{
-	// state = {
-	// 	viewport: {
-	// 	  width: '100%',
-	// 	  height: "50vh",
-	// 	  longitude: 67.0461243,
-	// 	  latitude: 24.8266081,
-	// 	  zoom: 17
-		
-	// 	},
-	// 	lat: 24.8266081,
-	// 	lng: 67.0461243
-	//   };
+
 render()
 {
     return(
